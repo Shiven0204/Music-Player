@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+
+body{
+    background-color: black;
+}
+/* CSS For Nav*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    background-color: #F4EBD0;
+    padding: 8px;
+}
+
+.navleft{
+    display: flex;
+    gap: 8px;
+}
+
+.logo a{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.hs{
+    display: flex;
+    gap: 8px;
+    min-width: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.hm{
+    border: 0;
+    box-sizing: border-box;
+    background-color: #1f1f1f;
+    border-radius: 50%;
+    padding: 12px;
+    color: white;
+}
+
+.srch{
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.srchb{
+    position: absolute;
+    background: none;
+    border: 0;
+    height: 48px;
+    width: 40px;
+    z-index: 1;
+}
+
+.srchi{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 96px 12px 48px;
+    background: transparent;
+    background-color: #1f1f1f;
+    border: 0;
+    border-style: none;
+    border-radius: 32px;
+}
+
+
+
+/* CSS For Main*/
+
+main{
+    display: flex;
+    color: white;
+}
+
+.mleft{
+    border: 2px solid red;
+    width: 16vw;
+    margin: 3px;
+    background-color: #1f1f1f;
+    padding: 15px;
+}
+
+.mright{
+    border: 2px solid red;
+    width: 84vw;
+    margin: 3px;
+    background-color: #1f1f1f;
+}
+
+.sndbar{
+    border: 2px solid red;
+    margin: 3px;
+    background-color: #1f1f1f;
+    height: 9.5vh;
+}
+
+.guid{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.guid button{
+    width: 36px;
+    height: 36px;
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    background: none;
+    background-color: #585252;
+    cursor: pointer;
+}
+
+.guid button svg{
+    width: 20px;
+    height: 20px;
+}
+
+
+.collection h3{
+    font-size: 16px;
+    margin: 18px 0;
+}
+
+.collection ul li{
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.items a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    font-size: 18px;
+    width: 12vw;
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+}
